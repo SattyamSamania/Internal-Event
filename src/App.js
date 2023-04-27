@@ -8,6 +8,7 @@ import Contact from './Components/Contact'
 import Footer from './Components/Footer'
 import Event from './Components/Event'
 import {BrowserRouter as Main, Route, Routes} from 'react-router-dom'
+import Dashboard from './Components/Dashboard';
 
 
 function App() {
@@ -19,6 +20,8 @@ function App() {
       <Route exact path='/' element ={<Home/>}/>  
       <Route exact path='/About' element ={<About/>}/>
       <Route exact path='/Event' element ={<Event/>}/>
+      <Route exact path='/Dashboard' element ={<Dashboard/>}/>
+
       <Route exact path='/Contact' element ={<Contact/>}/>
 
        
