@@ -16,7 +16,7 @@ export default function Dashboard(){
 		<div class="side-nav">
 			<div class="logo">
 				<i class="fa fa-cog fa-3x fa-fw" aria-hidden="true"></i>
-          <span>Javaid Bashir</span>
+          <span></span>
 			</div>
 			<nav>
 				<ul>

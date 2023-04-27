@@ -1,6 +1,14 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import event3 from './event3.jpeg'
+import event4 from './event4.jpeg'
+import event5 from './event5.jpeg'
+import event8 from './event8.jpeg'
+import scroll4 from './scroll4.webp'
+import scroll10 from './scroll10.webp'
+import scroll5 from './scroll5.webp'
+import event7 from './event7.jpeg'
 
 
 export default function Event(){
@@ -39,64 +47,111 @@ export default function Event(){
 </div> */}
 
 
-<section className="upcoming-events">
-  <div className="container">
-    <h2 className="text-center mb-5">Upcoming Events</h2>
-    <div className="row">
-      <div className="col-md-6">
-        <div className="card mb-4">
-          <div className="card-body">
-            <h3 className="card-title">Seminar on Machine Learning</h3>
-            <p className="card-text"><i className="far fa-calendar-alt"></i> Wednesday, May 12, 2023</p>
-            <p className="card-text"><i className="far fa-clock"></i> 6:00 PM - 8:00 PM</p>
-            <p className="card-text"><i className="fas fa-map-marker-alt"></i> 123 Main St, Suite 200, Anytown, USA</p>
-            <a href="#" className="btn btn-primary btn-block">RSVP Now</a>
-          </div>
-        </div>
-      </div>
-      <div className="col-md-6">
-        <div className="card mb-4">
-          <div className="card-body">
-            <h3 className="card-title"> Workshop on React </h3>
-            <p className="card-text"><i className="far fa-calendar-alt"></i> Thursday, June 15, 2023</p>
-            <p className="card-text"><i className="far fa-clock"></i> 9:00 AM - 12:00 PM</p>
-            <p className="card-text"><i className="fas fa-map-marker-alt"></i> 456 Market St, Suite 300, Anytown, USA</p>
-            <a href="#" className="btn btn-primary btn-block">RSVP Now</a>
-          </div>
-        </div>
+{/* <!-- Event Section 1 --> */}
+<section id="event1" class="bg-light py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">Upcoming Events</h2>
+        <h3 class="section-subheading text-muted">Check out our upcoming event below</h3>
       </div>
     </div>
-  </div>
-  <section className="upcoming-events">
-  <div className="container">
-    <h2 className="text-center mb-5">Past Events</h2>
-    <div className="row">
-      <div className="col-md-6">
-        <div className="card mb-4">
-          <div className="card-body">
-            <h3 className="card-title">Networking Mixer</h3>
-            <p className="card-text"><i className="far fa-calendar-alt"></i> Wednesday, May 12, 2023</p>
-            <p className="card-text"><i className="far fa-clock"></i> 6:00 PM - 8:00 PM</p>
-            <p className="card-text"><i className="fas fa-map-marker-alt"></i> 123 Main St, Suite 200, Anytown, USA</p>
-            {/* <a href="#" className="btn btn-primary btn-block">RSVP Now</a> */}
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <img class="card-img-top" src={event3} alt="event3"/>
+          <div class="card-body">
+            <h4 class="card-title">Event 1</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget sapien eu augue faucibus dignissim.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
           </div>
+          <div class="card-footer text-muted">Date: 01/05/2023</div>
         </div>
       </div>
-      <div className="col-md-6">
-        <div className="card mb-4">
-          <div className="card-body">
-            <h3 className="card-title">Team Building Workshop</h3>
-            <p className="card-text"><i className="far fa-calendar-alt"></i> Thursday, June 15, 2023</p>
-            <p className="card-text"><i className="far fa-clock"></i> 9:00 AM - 12:00 PM</p>
-            <p className="card-text"><i className="fas fa-map-marker-alt"></i> 456 Market St, Suite 300, Anytown, USA</p>
-            {/* <a href="#" className="btn btn-primary btn-block">RSVP Now</a> */}
+      <div class="col-md-6">
+        <div class="card">
+          <img class="card-img-top" src={event4} alt="event4"/>
+          <div class="card-body">
+            <h4 class="card-title">Event 2</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget sapien eu augue faucibus dignissim.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
           </div>
+          <div class="card-footer text-muted">Date: 07/05/2023</div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
+{/* <!-- Event Section 2 --> */}
+<section id="event2" class="bg-light py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">Technical Events</h2>
+        <h3 class="section-subheading text-muted">Check out our upcoming events</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <img class="card-img-top" src={event5} alt="event5"/>
+          <div class="card-body">
+            <h4 class="card-title">Event 3</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget sapien eu augue faucibus dignissim.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+          <div class="card-footer text-muted">Date: 15/05/2023</div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <img class="card-img-top" src={scroll5} alt="scroll5"/>
+          <div class="card-body">
+        <h4 class="card-title">Event 4</h4>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget sapien eu augue faucibus dignissim.</p>
+        <a href="#" class="btn btn-primary">Learn More</a>
+      </div>
+      <div class="card-footer text-muted">Date: 21/05/2023</div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+{/* <!-- Event Section 3 --> */}
+<section id="event3" class="bg-light py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">Non Technical Events</h2>
+        <h3 class="section-subheading text-muted">Check out our upcoming events</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <img class="card-img-top" src={event7} alt="event7"/>
+          <div class="card-body">
+            <h4 class="card-title">Event 5</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget sapien eu augue faucibus dignissim.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+          <div class="card-footer text-muted">Date: 01/06/2023</div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <img class="card-img-top" src={scroll10} alt="scroll10"/>
+          <div class="card-body">
+            <h4 class="card-title">Event 6</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget sapien eu augue faucibus dignissim.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+          <div class="card-footer text-muted">Date: 15/06/2023</div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
 

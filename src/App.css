@@ -206,6 +206,37 @@ h1{
   }
 }
 
+/* Event CSS  */
+
+#event1,
+#event2,
+#event3 {
+  background-color: #f8f9fa;
+}
+
+/* Set card height and border radius */
+.card {
+  height: 100%;
+  border-radius: 10px;
+}
+
+/* Set card image height and border radius */
+.card-img-top {
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* Set card title and description text alignment */
+.card-title,
+.card-text {
+  text-align: center;
+}
+
+/* Set card footer text alignment */
+.card-footer {
+  text-align: center;
+}
 
 /* Dashboard CSS */
 
