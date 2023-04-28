@@ -11,6 +11,7 @@ import {BrowserRouter as Main, Route, Routes} from 'react-router-dom'
 import Dashboard from './Components/Dashboard';
 import Create from './Components/Create'
 import Attendees from './Components/Attendees';
+import Register from './Components/Register';
 
 
 function App() {
@@ -18,6 +19,8 @@ function App() {
     <>
       <Main>
       <Navbar />
+      {/* <Register/> */}
+
       <Routes>
       <Route exact path='/' element ={<Home/>}/>  
       <Route exact path='/About' element ={<About/>}/>

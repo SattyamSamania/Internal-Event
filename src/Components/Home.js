@@ -16,10 +16,10 @@ const Home = () => {
         <p className="lead">This is the go-to place for managing all your internal events. From scheduling and organizing events to inviting attendees and tracking RSVPs, our system makes event planning a breeze.</p>
         <div className="row">
           <div className="col-md-6">
-            <a href="/events" className="btn btn-primary btn-lg btn-block"><i className="fas fa-calendar-alt"></i> View Events</a>
+            {/* <a href="/events" className="btn btn-primary btn-lg btn-block"><i className="fas fa-calendar-alt"></i> View Events</a> */}
           </div>
           <div className="col-md-6">
-            <a href="/create-event" className="btn btn-success btn-lg btn-block"><i className="fas fa-plus-circle"></i> Create Event</a>
+            {/* <a href="/create-event" className="btn btn-success btn-lg btn-block"><i className="fas fa-plus-circle"></i> Create Event</a> */}
           </div>
         </div>
       </div>
@@ -35,6 +35,48 @@ const Home = () => {
     </div>
   </div>
 </section>
+
+<div className="container">
+    <div className="row">
+        <div className="col-md-3">
+            <div className="card">
+                <div className="card-body">
+                    <h5 className="card-title">Upcoming Events</h5>
+                    <p className="card-text">View and manage your upcoming events.</p>
+                    <a href="#" className="btn btn-primary">View Events</a>
+                </div>
+            </div>
+        </div>
+        <div className="col-md-3">
+            <div className="card">
+                <div className="card-body">
+                    <h5 className="card-title">Create Event</h5>
+                    <p className="card-text">Create a new event for your organization.</p>
+                    <a href="#" className="btn btn-primary">Create Event</a>
+                </div>
+            </div>
+        </div>
+        <div className="col-md-3">
+            <div className="card">
+                <div className="card-body">
+                    <h5 className="card-title">Manage Registrations</h5>
+                    <p className="card-text">Approve or reject registrations and view attendee lists.</p>
+                    <a href="#" className="btn btn-primary">Manage Registrations</a>
+                </div>
+            </div>
+        </div>
+        <div className="col-md-3">
+            <div className="card">
+                <div className="card-body">
+                    <h5 className="card-title">Communication</h5>
+                    <p className="card-text">Communicate with attendees through email.</p>
+                    <a href="#" className="btn btn-primary">Communicate with Attendees</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 
     </>
