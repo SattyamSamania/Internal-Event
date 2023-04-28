@@ -10,6 +10,7 @@ import Event from './Components/Event'
 import {BrowserRouter as Main, Route, Routes} from 'react-router-dom'
 import Dashboard from './Components/Dashboard';
 import Create from './Components/Create'
+import Attendees from './Components/Attendees';
 
 
 function App() {
@@ -22,6 +23,9 @@ function App() {
       <Route exact path='/About' element ={<About/>}/>
       <Route exact path='/Event' element ={<Event/>}/>
       <Route exact path='/Dashboard' element ={<Dashboard/>}/>
+      <Route exact path='/Attendees' element ={<Attendees/>}/>
+
+      
 
       <Route exact path='/Contact' element ={<Contact/>}/>
 
