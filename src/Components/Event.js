@@ -53,7 +53,7 @@ export default function Event(){
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading text-uppercase">Upcoming Events</h2>
-        <h3 class="section-subheading text-muted">Check out our upcoming event below</h3>
+        <h3 class="section-subheading text-muted">Check out our upcoming event here</h3>
       </div>
     </div>
     <div class="row">
@@ -89,7 +89,7 @@ export default function Event(){
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading text-uppercase">Technical Events</h2>
-        <h3 class="section-subheading text-muted">Check out our upcoming events</h3>
+        <h3 class="section-subheading text-muted">Check out our upcoming events here</h3>
       </div>
     </div>
     <div class="row">
@@ -124,7 +124,7 @@ export default function Event(){
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading text-uppercase">Non Technical Events</h2>
-        <h3 class="section-subheading text-muted">Check out our upcoming events</h3>
+        <h3 class="section-subheading text-muted">Check out our upcoming events here</h3>
       </div>
     </div>
     <div class="row">
@@ -153,6 +153,8 @@ export default function Event(){
     </div>
   </div>
 </section>
+
+
 
 
 

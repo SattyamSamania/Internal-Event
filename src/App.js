@@ -9,6 +9,7 @@ import Footer from './Components/Footer'
 import Event from './Components/Event'
 import {BrowserRouter as Main, Route, Routes} from 'react-router-dom'
 import Dashboard from './Components/Dashboard';
+import Create from './Components/Create'
 
 
 function App() {
