@@ -10,7 +10,7 @@ export default function Dashboard(){
 
 
 
-	{/* <div className="container-fluid mt-3">
+	 <div className="container-fluid mt-3">
 		<div className="row">
 			<div className="col-md-3">
 				<div className="card">
@@ -166,7 +166,7 @@ Dashboard
           </div>
         </div>
       </div>
-     */}
+     
 
 
 	  <div class="container dashboard-container">
