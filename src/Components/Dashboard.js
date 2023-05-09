@@ -6,154 +6,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 export default function Dashboard(){
     return(
         <>
-{/* <div className="header">
-			<div className="logo">
-				<i className="fa fa-lock" aria-hidden="true"></i>
-				<span>Admin Dashboard</span>
-			</div>
-			<a href="#" className="nav-trigger"><span></span></a>
-		</div>
-		<div className="side-nav">
-			<div className="logo">
-				<i className="fa fa-cog fa-3x fa-fw" aria-hidden="true"></i>
-          <span></span>
-			</div>
-			<nav>
-				<ul>
-					<li>
-						<a href="#">
-							<span><i className="fas fa-tachometer-alt"></i></span>
-							<span>Dashboard</span>
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<span><i className="fa fa-user"></i></span>
-							<span>Manage Employee</span>
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<span><i className="fa fa-users"></i></span>
-							<span>Manage Employers</span>
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<span><i className="fa fa-credit-card"></i></span>
-							<span>Withdrawal Request</span>
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<span><i className="fa fa-list-alt"></i></span>
-							<span>List Of Projects</span>
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<span><i className="fas fa-chart-bar"></i></span>
-							<span>Analytics</span>
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<span><i className="fas fa-money-check-alt"></i></span>
-							<span>Payment History</span>
-						</a>
-					</li>
-					
-					<li>
-						<a href="#">
-							<span><i className="fa fa-bell"></i></span>
-							<span>Notifications</span>
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<span><i className="fa fa-briefcase"></i></span>
-							<span>Accounts-Ledger</span>
-						</a>
-					</li>
-				</ul>
-			</nav>
-		</div>	        */}
-
-
-{/* <div className="container-fluid mt-3">
-		<div className="row">
-			<div className="col-md-3">
-				<div className="card">
-					<div className="card-header">
-						Sidebar
-					</div>
-					<div className="card-body">
-						<ul className="nav flex-column">
-							<li className="nav-item">
-								<a className="nav-link active" href="#">Overview</a>
-							</li>
-							<li className="nav-item">
-								<a className="nav-link" href="#">Reports</a>
-							</li>
-							<li className="nav-item">
-								<a className="nav-link" href="#">Analytics</a>
-							</li>
-							<li className="nav-item">
-								<a className="nav-link" href="#">Export</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div className="col-md-9">
-				<div className="card">
-					<div className="card-header">
-						Events
-					</div>
-					<div className="card-body">
-						<table className="table table-hover">
-							<thead>
-								<tr>
-									<th>#</th>
-									<th>Name</th>
-									<th>Date</th>
-									<th>Location</th>
-									<th>Action</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>1</td>
-									<td>Annual Sales Meeting</td>
-									<td>2023-05-10</td>
-									<td>New York City</td>
-									<td><a href="#" className="btn btn-sm btn-primary">View</a></td>
-								</tr>
-								<tr>
-									<td>2</td>
-									<td>Quarterly Performance Review</td>
-									<td>2023-06-15</td>
-									<td>Chicago</td>
-									<td><a href="#" className="btn btn-sm btn-primary">View</a></td>
-								</tr>
-								<tr>
-									<td>3</td>
-									<td>Product Launch Event</td>
-									<td>2023-08-01</td>
-									<td>Los Angeles</td>
-									<td><a href="#" className="btn btn-sm btn-primary">View</a></td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> */}
 
 
 
-	<div className="container-fluid mt-3">
+
+	{/* <div className="container-fluid mt-3">
 		<div className="row">
 			<div className="col-md-3">
 				<div className="card">
@@ -309,7 +166,31 @@ Dashboard
           </div>
         </div>
       </div>
-    
+     */}
+
+
+	  <div class="container dashboard-container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="dashboard-card">
+          <h3>Event 1</h3>
+          <p>Date: May 10, 2023</p>
+          <p>Location: Venue A</p>
+          <button class="btn btn-primary">Edit</button>
+          <button class="btn btn-danger">Delete</button>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="dashboard-card">
+          <h3>Event 2</h3>
+          <p>Date: May 15, 2023</p>
+          <p>Location: Venue B</p>
+          <button class="btn btn-primary">Edit</button>
+          <button class="btn btn-danger">Delete</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
         
         </>
