@@ -192,6 +192,105 @@ Dashboard
     </div>
   </div>
 
+
+  <div class="container-fluid mt-4">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="list-group">
+          <a href="#" class="list-group-item list-group-item-action active">Dashboard</a>
+          <a href="#" class="list-group-item list-group-item-action">Events</a>
+          <a href="#" class="list-group-item list-group-item-action">Participants</a>
+          <a href="#" class="list-group-item list-group-item-action">Reports</a>
+          <a href="#" class="list-group-item list-group-item-action">Settings</a>
+        </div>
+      </div>
+      <div class="col-md-9">
+        <div class="card mb-4">
+          <div class="card-header">
+            <h5 class="mb-0">Event Overview</h5>
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h6 class="card-title">Total Events</h6>
+                    <p class="card-text">15</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h6 class="card-title">Total Participants</h6>
+                    <p class="card-text">350</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h6 class="card-title">Upcoming Events</h6>
+                    <p class="card-text">5</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">View All Events</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h5 class="mb-0">Recent Events</h5>
+          </div>
+          <div class="card-body">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>Event Name</th>
+                  <th>Date</th>
+                  <th>Location</th>
+                  <th>Participants</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Event 1</td>
+                  <td>May 10, 2023</td>
+                  <td>Conference Room A</td>
+                  <td>50</td>
+                </tr>
+                <tr>
+                  <td>Event 2</td>
+                  <td>May 15, 2023</td>
+                  <td>Conference Room B</td>
+                  <td>100</td>
+                </tr>
+                <tr>
+                  <td>Event 3</td>
+                  <td>May 20, 2023</td>
+                  <td>Conference Room C</td>
+                  <td>80</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">View All Events</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
         
         </>
     )
