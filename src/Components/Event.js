@@ -9,12 +9,16 @@ import scroll4 from './scroll4.webp'
 import scroll10 from './scroll10.webp'
 import scroll5 from './scroll5.webp'
 import event7 from './event7.jpeg'
+import { Helmet } from "react-helmet"
 
 
 export default function Event(){
   return(
 
+    
+
     <>
+    
 {/*       
    <div className="container">
   <h1 className="fs-1 text-uppercase text-center m-3 p-3">Add Events</h1>
