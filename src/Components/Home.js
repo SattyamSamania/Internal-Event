@@ -36,46 +36,57 @@ const Home = () => {
   </div>
 </section>
 
-<div className="container">
-    <div className="row">
-        <div className="col-md-3">
-            <div className="card">
-                <div className="card-body">
-                    <h5 className="card-title">Upcoming Events</h5>
-                    <p className="card-text">View and manage your upcoming events.</p>
-                    <a href="#" className="btn btn-primary">View Events</a>
-                </div>
-            </div>
+
+
+<section class="features-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="feature-item">
+          <i class="fas fa-user-friends"></i>
+          <h3>Event Registration</h3>
+          <p>Efficiently manage event registrations and collect participant information.</p>
         </div>
-        <div className="col-md-3">
-            <div className="card">
-                <div className="card-body">
-                    <h5 className="card-title">Create Event</h5>
-                    <p className="card-text">Create a new event for your organization.</p>
-                    <a href="#" className="btn btn-primary">Create Event</a>
-                </div>
-            </div>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-item">
+          <i class="far fa-calendar-alt"></i>
+          <h3>Event Calendar</h3>
+          <p>Keep track of upcoming events and important dates using the event calendar.</p>
         </div>
-        <div className="col-md-3">
-            <div className="card">
-                <div className="card-body">
-                    <h5 className="card-title">Manage Registrations</h5>
-                    <p className="card-text">Approve or reject registrations and view attendee lists.</p>
-                    <a href="#" className="btn btn-primary">Manage Registrations</a>
-                </div>
-            </div>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-item">
+          <i class="fas fa-chart-bar"></i>
+          <h3>Event Reporting</h3>
+          <p>Generate insightful reports and analyze event data for better decision-making.</p>
         </div>
-        <div className="col-md-3">
-            <div className="card">
-                <div className="card-body">
-                    <h5 className="card-title">Communication</h5>
-                    <p className="card-text">Communicate with attendees through email.</p>
-                    <a href="#" className="btn btn-primary">Communicate with Attendees</a>
-                </div>
-            </div>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-item">
+          <i class="fas fa-tasks"></i>
+          <h3>Task Management</h3>
+          <p>Create and assign tasks related to event planning and execution.</p>
         </div>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-item">
+          <i class="fas fa-check-circle"></i>
+          <h3>Attendance Tracking</h3>
+          <p>Track and record event attendance to monitor participant engagement.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-item">
+          <i class="fas fa-envelope"></i>
+          <h3>Communication</h3>
+          <p>Send event-related notifications and updates to participants and stakeholders.</p>
+        </div>
+      </div>
     </div>
-</div>
+  </div>
+</section>
+
 
 
 
